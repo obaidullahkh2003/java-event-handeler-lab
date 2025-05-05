@@ -45,8 +45,11 @@ public class controllcircle extends Application {
         shrink.setOnAction(shrinkdown -> {
             if (circle.getRadius()>20) {
                 circle.setRadius(circle.getRadius() - 2);
-                shrink.setDisable(false);
+                enlarge.setDisable(false);
+            }else {
+                shrink.setDisable(true);
             }
+
         });
 
 

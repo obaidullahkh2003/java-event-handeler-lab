@@ -18,7 +18,7 @@ public class movecircle extends Application {
         Button  left= new Button("Left");
         Button  right= new Button("Right");
 
-        Circle circle = new Circle(25);
+        Circle circle = new Circle(50);
 
 
         VBox topBox = new VBox(up);
